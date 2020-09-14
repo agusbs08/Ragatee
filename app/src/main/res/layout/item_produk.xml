@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_130sdp"
+    android:layout_height="@dimen/_200sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginRight="@dimen/_15sdp"
+    android:background="@drawable/shape_product_card"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraint_img_product"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_90sdp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/background_produk_tmp"
+        >
+
+
+        <TextView
+            android:id="@+id/tv_terdanai_persen"
+            android:layout_width="@dimen/_33sdp"
+            android:layout_height="@dimen/_33sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:gravity="center"
+            android:text="20%"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/_12sdp"
+            android:background="@drawable/circle_shape_primary"
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ProgressBar
+        android:id="@+id/pb_pendanaan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/constraint_img_product"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:indeterminate="false"
+        android:progressTint="@color/colorPrimaryDark"
+        android:max="100"
+        android:progress="50"
+        />
+
+    <TextView
+        android:id="@+id/tv_judul_produk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/_2sdp"
+        android:layout_marginLeft="@dimen/_2sdp"
+        app:layout_constraintTop_toBottomOf="@+id/pb_pendanaan"
+        android:text="Pembesaran Ikan Gurame Konsumsi Kualitas Ekspor"
+        android:textSize="@dimen/_15sdp"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"
+        android:maxLines="3"
+        android:ellipsize="end"
+        />
+
+    <TextView
+        android:id="@+id/tv_kebutuhan_pendanaan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_15sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="Rp 400.0000.000"
+        android:textSize="@dimen/_15sdp"
+        android:textColor="#29CA7C"
+        android:gravity="center"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

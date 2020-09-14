@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "813084417342",
+    "firebase_url": "https://ragateee.firebaseio.com",
+    "project_id": "ragateee",
+    "storage_bucket": "ragateee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:813084417342:android:ab084f3189278c3b68606f",
+        "android_client_info": {
+          "package_name": "com.hackaton.bri.ragatee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "813084417342-8ksblr8b5p48ab7e0r9shke5utjf7l56.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hackaton.bri.ragatee",
+            "certificate_hash": "f825e5eff2a415d0e2fc56a13468055f3b7bcf42"
+          }
+        },
+        {
+          "client_id": "813084417342-u0ftd88c1t7iuhkcpk4fslonj440l4ut.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpndiVoiReQDHJDrrw2Sr_0tbz4tKuvlo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "813084417342-u0ftd88c1t7iuhkcpk4fslonj440l4ut.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

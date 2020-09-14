@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/shape_product_card"
+    android:paddingBottom="@dimen/_20sdp"
+    android:layout_marginBottom="@dimen/_20sdp"
+    >
+
+    <TextView
+        android:id="@+id/tv_tanggal_report"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:gravity="center"
+        android:text="27 Februari 2020"
+        />
+
+    <TextView
+        android:id="@+id/tv_judul_report"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/_25sdp"
+        android:layout_marginLeft="@dimen/_25sdp"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:text="Panen di Beberapa Petani Binaan Warga"
+        android:textSize="@dimen/_20sdp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:id="@+id/iv_report"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_120sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_25sdp"
+        android:layout_marginLeft="@dimen/_25sdp"
+        />
+
+    <TextView
+        android:id="@+id/tv_deskripsi_report"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_25sdp"
+        android:layout_marginLeft="@dimen/_25sdp"
+        android:textSize="@dimen/_10sdp"
+        android:textColor="@color/colorPrimary"
+        />
+
+</LinearLayout>

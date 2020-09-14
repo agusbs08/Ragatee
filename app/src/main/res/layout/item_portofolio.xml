@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="@dimen/_140sdp"
+    android:layout_height="@dimen/_225sdp"
+    android:layout_marginRight="@dimen/_15sdp"
+    android:background="@drawable/shape_product_card">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraint_img_product"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_90sdp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/background_produk_tmp"
+        >
+
+        <TextView
+            android:id="@+id/tv_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginBottom="@dimen/_15sdp"
+            android:padding="@dimen/_5sdp"
+            android:gravity="center"
+            android:text="AKTIF"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/_10sdp"
+            android:background="@drawable/shape_green_gradient"
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/tv_judul_produk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/_2sdp"
+        android:layout_marginLeft="@dimen/_2sdp"
+        app:layout_constraintTop_toBottomOf="@+id/pb_pendanaan"
+        android:text="Pembesaran Ikan Gurame Konsumsi Kualitas Ekspor lalalalala"
+        android:textSize="@dimen/_15sdp"
+        android:textColor="@color/colorPrimaryDark"
+        android:maxLines="4"
+        android:ellipsize="end"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_2sdp"
+        android:layout_marginLeft="@dimen/_2sdp"
+        android:textSize="@dimen/_10sdp"
+        android:text="TOTAL PENDANAAN"
+        />
+
+    <TextView
+        android:id="@+id/tv_jumlah_pendanaan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/_2sdp"
+        android:layout_marginLeft="@dimen/_2sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="Rp 400.0000.000"
+        android:textSize="@dimen/_13sdp"
+        android:textColor="#29CA7C"
+        />
+
+    <TextView
+        android:id="@+id/tv_daily_report"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_2sdp"
+        android:layout_marginTop="@dimen/_7sdp"
+        android:text="Lihat Catatan Pembukuan"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/_10sdp" />
+</LinearLayout>
